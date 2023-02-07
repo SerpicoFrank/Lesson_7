@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,800,900&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	background-color: rgba(128, 128, 128, 0.342);
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ______________________________________________________ */
+
+.list {
+	padding: 50px 0px;
+}
+.listcontainer {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.ll {
+
+	font-size: 30px;
+	padding-top: 4px;
+	margin-bottom: 10px;
+	background: url('../img/Group.png') 350px 0 no-repeat;
+}
+/* ______________________________________________________________________ */
+
+.service {
+	padding: 280px 0px 312px 0px;
+	background: url('../img/BGImage.png') 0 0 / cover no-repeat;
+	margin-bottom: 210px;
+}
+.srvicecontainer {
+	max-width: 1020px;
+	margin: auto;
+	font-family: "Roboto";
+	color: #FFF;
+}
+.servicetitle {
+	max-width: 583px;
+	font-weight: 900;
+font-size: 56px;
+margin-bottom: 48px;
+}
+a {
+	display: inline-block;
+	color: #FFF;
+		max-width: 211px;
+	padding: 9px 49px 9px 19px;
+	background: #C40B0B url('../img/Button.png') 100% 0 / 43px 43px no-repeat;
+	font-weight: 700;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.15px;
+text-transform: uppercase;
+}
+/* _______________________________________________________________________ */
+
+.impact {
+	padding: 112px 0px 212px 0px;
+	background:#02133C url('../img/overlayimage.png') 0 0 / cover no-repeat;
+}
+.impactcontainer {
+	max-width: 1020px;
+	margin: 0px auto;
+	color: #FFF;
+	font-family: "Roboto";
+}
+.impactmain {
+	margin-bottom: 79px;
+}
+.impactmaincontant {
+	max-width: 411px ;
+}
+.impactmaincontantlogotip {
+	background: url('../img/icon.png') 0 0 no-repeat;
+	color: #D5D5D5;
+	padding: 0px 0px 0px 33px;
+	font-weight: 700;
+font-size: 12px;
+line-height: 2.25;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+margin-bottom: 32px;
+}
+.impactmaincontanttitle {
+	font-weight: 900;
+font-size: 36px;
+line-height: 1.17;
+}
+.impactmainimg {
+margin: -325px 0px 0px 0px;
+text-align: right;
+}
+
+.impactfooterbox1title,
+.impactfooterbox2title,
+.impactfooterbox3title,
+.impactfooterbox4title {
+	font-weight: 900;
+font-size: 36px;
+line-height: 1.17;
+color: #C40B0B;
+margin-bottom: 5px;
+}
+.impactfooterbox1text,
+.impactfooterbox2text,
+.impactfooterbox3text,
+.impactfooterbox4text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #F5F5F5;
+}
+.impactfooterbox1,
+.impactfooterbox2,
+.impactfooterbox3,
+.impactfooterbox4 {
+	display: inline-block;
+	max-width: 237px;
+	margin-right: 24px;
+	padding-left: 87px;
+	vertical-align: top;
+}
+.impactfooterbox1 {
+	background: url('../img/oil24x.png') 0 0 / 71px no-repeat;
+}
+.impactfooterbox2 {
+	background: url('../img/transmission24x.png') 0 0 / 71px no-repeat;
+}
+.impactfooterbox3 {
+	background: url('../img/alignment24x.png') 0 0 / 71px no-repeat;
+}
+.impactfooterbox4 {
+	background: url('../img/engine24x.png') 0 0 / 71px no-repeat;
+}
+/* ______________________________________________________________________________ */
+
+.contact {
+	padding: 50px 0px;
+}
+.contactcontainer {
+	max-width: 1020px;
+	margin: auto;
+}
+.b {
+	font-family: "Roboto";
+	color: #4B4B4B;
+	font-weight: 400;
+font-size: 15px;
+line-height: 1.43;
+letter-spacing: 0.15px;
+padding-left: 30px;
+margin-bottom: 16px;
+}
+.contactbox1 {
+	max-width: 200px;
+	background: url('../img/02.png') 0 2px / 16px no-repeat;
+}
+.contactbox2 {
+	background: url('../img/03.png') 0 3px / 16px no-repeat;
+}
+.contactbox3 {
+	background: url('../img/04.png') 0 3px / 16px no-repeat;
+}
+.contactbox4 {
+	background: url('../img/01.png') 0 2px / 16px no-repeat;
+}
+/* _________________________________________________________________ */
